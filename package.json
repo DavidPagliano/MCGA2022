@@ -1,0 +1,30 @@
+{
+  "name": "mcga2022_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidPagliano/MCGA2022_backend.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "David Pagliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidPagliano/MCGA2022_backend/issues"
+  },
+  "homepage": "https://github.com/DavidPagliano/MCGA2022_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
